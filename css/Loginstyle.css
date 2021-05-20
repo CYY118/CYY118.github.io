@@ -1,0 +1,61 @@
+*{
+
+    margin: 0;
+
+}
+body{
+    background-image: url('../img/backgroundtwo.jpg');
+    background-size: cover;
+}
+.loginform{
+
+    background-color: rgba(15,65,118, 0.5);
+    height: 350px;
+    width: 600px;
+    margin-left: 50%;
+    margin-top: 7%;
+    position: relative;
+    box-shadow: 10px 10px 15px ;
+    border-radius: 20px;
+}
+.logintable{
+    background-color: transparent;
+    height: 200px;
+    width: 550px;
+    margin-left: 25px;
+    margin-top: 25px;
+
+    position: absolute;
+}
+.logintableone{
+    width: 550px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 245px;
+    background-color: transparent;
+}
+#loginsubmit{
+    background-color: chocolate;
+    width: 178px;
+    height: 55px;
+}
+#registersubmit{
+    background-color: chocolate;
+    width: 178px;
+    height: 55px;
+}
+#resetsubmit{
+    background-color: chocolate;
+    width: 178px;
+    height: 55px;
+}
+tr{
+    background-color: transparent;
+
+}
+td{
+    background-color: transparent;
+}
+h3{
+    background-color: transparent;
+}
