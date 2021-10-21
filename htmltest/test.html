@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<style>
+			body{
+				background-size: cover;
+			}
+			*{
+				margin: 0;
+			}
+			.ziti{
+				height: 90px;
+				/*background-color: gold;*/
+				position: relative;
+			}
+			.homepage{
+				height: 100%;
+				width: 99.8%;
+				float: left;
+				/*margin-top: 15%;*/
+				/*background-color: hotpink;*/
+			}
+			.itone{
+				height: 200px;
+				width: 200px;
+				background-color: blueviolet;
+				float: left;
+				margin-left: 85px;
+				margin-top: 40px;
+				margin-bottom: 50px;
+				position: relative;
+				border: 1px solid #8A2BE2;
+				border-radius: 20px;
+				transition: all 0.1s ease-in-out;
+				box-shadow: 10px 10px 15px black;
+			}
+			.itone:hover{
+				transform: scale(1.2,1.2);
+			}
+			img{
+				height: 100%;
+				width: 100%;
+				border-radius: 20px;
+			}
+			h2{
+				margin-top: -130px;
+				font-family: ;
+				color: black;
+				font-family: "楷体";
+				font-size: 30px;
+				margin-left: 56px;
+				position: absolute;
+				
+			}
+			h1{
+				height: 40px;
+				width: 400px;
+				margin-left: 42%;
+				margin-top: 2%;
+				/*margin-bottom: -200px;*/
+				font-family: "楷体";
+				font-size: 50px;
+				/*background-color: brown;*/
+				position: absolute;
+			}
+			
+		</style>
+	</head>
+	<body background="img/back.jpg">
+		<div class="ziti"><h1>Linux Home</h1></div>
+		<div class="homepage">
+			<a href="http://39.106.62.65:8080/124fuli_war/">
+				<div class="itone" ><img src="./img/03g.jpg" ><h2>项目一</h2></div>
+				</a>
+			<a href="http://39.106.62.65:8080/cyy_maogai/">
+				<div class="itone"><img src="./img/03g.jpg"><h2>项目二</h2></div>
+				</a>
+			<a href="http://39.106.62.65:8080/studentinto_war/">
+				<div class="itone"><img src="./img/03g.jpg"><h2>项目三</h2></div>
+				</a>
+			<a href="http://39.106.62.65:8080/administration_war/">
+				<div class="itone"><img src="./img/03g.jpg"><h2>项目四</h2></div>
+				</a>
+			<a href="http://39.106.62.65:8080/cyy_suan/">
+				<div class="itone"><img src="./img/03g.jpg"><h2>项目五</h2></div>
+				</a>
+			<a href="http://39.106.62.65:8080/SmartSoft_war/">
+				<div class="itone"><img src="./img/03g.jpg"><h2>项目六</h2></div>
+				</a>
+			<a href="http://39.106.62.65:8080/yingyu/">
+				<div class="itone"><img src="./img/03g.jpg"><h2>项目七</h2></div>
+			</a>
+		</div>
+
+		<script src="https://l2dwidget.js.org/lib/L2Dwidget.min.js"></script>
+    <script type="text/javascript">
+      L2Dwidget
+        .on('*', (name) => {
+          console.log('%c EVENT ' + '%c -> ' + name, 'background: #222; color: yellow', 'background: #fff; color: #000')
+        })
+        .init({
+        	"display": { "position": "right", "width": 200, "height": 400,"hOffset": 70, "vOffset": 40 }, 
+          dialog: {
+            // 开启对话框
+            enable: true,
+            script: {
+              // 每空闲 10 秒钟，显示一条一言
+              'every idle 10s': '$hitokoto$',
+              // 当触摸到星星图案
+              'hover .star': '星星在天上而你在我心里 (*/ω＼*)',
+              // 当触摸到角色身体
+              'tap body': '哎呀！别碰我！',
+              // 当触摸到角色头部
+              'tap face': '人家已经不是小孩子了！'
+            }
+          }
+        });
+    </script>
+
+	</body>
+</html>
