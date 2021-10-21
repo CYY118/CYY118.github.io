@@ -1,11 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 31637
-  Date: 2021/5/14
-  Time: 18:26
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <meta charset="UTF-8">
@@ -58,7 +51,7 @@
 </head>
 <body>
 <a class="my">CAOYANGYANG</a>
-<%--<div class="loginone">--%>
+
     <form class="loginone" method="post" action="Login" style="border-radius: 20px;">
         <table class="logintable">
             <tr style="height: 50px">
@@ -79,6 +72,6 @@
             </tr>
         </table>
     </form>
-<%--</div>--%>
+
 </body>
 </html>
